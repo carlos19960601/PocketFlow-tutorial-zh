@@ -1,9 +1,13 @@
 [project]
-name = "packetflow-tutorial-zh"
+name = "pocketflow-tutorial-zh"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "duckduckgo-search>=8.0.1",
+    "openai>=1.78.0",
     "pocketflow>=0.0.2",
+    "python-dotenv>=1.1.0",
+    "pyyaml>=6.0.2",
 ]
