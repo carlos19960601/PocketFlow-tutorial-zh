@@ -1,5 +1,14 @@
 from pocketflow import Flow
 
+from rag.nodes import (
+    ChunkDocumentsNode,
+    CreateIndexNode,
+    EmbedDocumentsNode,
+    EmbedQueryNode,
+    GenerateAnswerNode,
+    RetrieveDocumentNode,
+)
+
 
 def get_offline_flow():
     # Create offline flow for document indexing
